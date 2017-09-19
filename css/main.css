@@ -57,9 +57,6 @@ main {
       background-size: cover;
       border-radius: 50%;
       margin: 20px auto; }
-      @media screen and (max-width: 1157px) {
-        main .about .pro-image {
-          display: none; } }
     main .about .outsideLinks {
       width: 60%;
       margin: 10px auto;
