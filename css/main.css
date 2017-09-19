@@ -51,8 +51,8 @@ main {
       color: black;
       font-weight: 100; }
     main .about .pro-image {
-      height: 250px;
-      max-width: 250px;
+      height: 50%;
+      max-width: 300px;
       background-image: url(../img/profile.jpg);
       background-size: cover;
       border-radius: 50%;
