@@ -1,0 +1,214 @@
+header {
+  font-size: 1em;
+  font-family: 'Droid Serif', serif;
+  color: black; }
+  header nav {
+    background-color: #4f6d7a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; }
+    header nav ul {
+      float: right;
+      padding: 10px;
+      margin-bottom: 0; }
+      header nav ul li {
+        display: inline;
+        padding-right: 5px; }
+        header nav ul li a {
+          text-decoration: none;
+          color: #EAEAEA;
+          margin: 5px;
+          font-size: 1.1em; }
+      header nav ul li:hover {
+        color: #CCC; }
+    @media screen and (max-width: 440px) {
+      header nav {
+        display: none; } }
+  header .header-container {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-bottom: -20px; }
+    header .header-container .content-container {
+      margin: 0 auto;
+      padding: 20px; }
+      header .header-container .content-container h1 {
+        padding-top: 40px; }
+
+main {
+  font-size: 1.5em; }
+  main .about {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.4em;
+    color: #dd6e42; }
+    main .about p {
+      margin-top: 10px;
+      margin-left: 20px;
+      color: black;
+      font-weight: 100; }
+    main .about .pro-image {
+      height: 250px;
+      max-width: 250px;
+      background-image: url(../img/profile.JPG);
+      background-size: cover;
+      border-radius: 50%;
+      margin: 20px auto; }
+      @media screen and (max-width: 1157px) {
+        main .about .pro-image {
+          display: none; } }
+    main .about .outsideLinks {
+      width: 60%;
+      margin: 10px auto;
+      text-align: center; }
+      @media screen and (max-width: 700px) {
+        main .about .outsideLinks {
+          width: 100%; } }
+      main .about .outsideLinks a {
+        text-decoration: none; }
+    main .about .linkedIn {
+      background-image: url(../img/linkedin.png);
+      background-size: cover;
+      height: 120px;
+      max-width: 120px;
+      margin: 10px auto; }
+    main .about .github {
+      background-image: url(../img/github.svg);
+      background-size: cover;
+      height: 120px;
+      max-width: 120px;
+      margin: 10px auto; }
+    main .about .resume {
+      background-image: url(../img/resume.png);
+      background-size: cover;
+      height: 120px;
+      max-width: 120px;
+      margin: 10px auto; }
+  main .skills {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 40px; }
+    main .skills .first-row {
+      width: 80%;
+      margin: 10px auto; }
+      main .skills .first-row #js, main .skills .first-row #html, main .skills .first-row #css {
+        background-size: cover;
+        height: 100px;
+        max-width: 100px;
+        margin: 10px auto; }
+      main .skills .first-row #js {
+        background-image: url("../img/JavaScript.jpg"); }
+      main .skills .first-row #html {
+        background-image: url("../img/html.png"); }
+      main .skills .first-row #css {
+        background-image: url("../img/css.png"); }
+    main .skills .second-row {
+      width: 70%;
+      margin: 10px auto; }
+      main .skills .second-row #node, main .skills .second-row #ts, main .skills .second-row #react {
+        background-size: cover;
+        height: 110px;
+        max-width: 100px;
+        margin: 10px auto; }
+      main .skills .second-row #node {
+        background-image: url("../img/node.png"); }
+      main .skills .second-row #ts {
+        background-image: url("../img/TypeScript.png"); }
+      main .skills .second-row #react {
+        background-image: url("../img/react.png"); }
+    main .skills .third-row {
+      width: 80%;
+      margin: 10px auto; }
+      main .skills .third-row #java, main .skills .third-row #python, main .skills .third-row #r, main .skills .third-row #sql {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 150px;
+        max-width: 150px;
+        margin: 10px auto; }
+      main .skills .third-row #java {
+        background-image: url("../img/java-icon.png"); }
+      main .skills .third-row #python {
+        background-image: url("../img/python.ico"); }
+      main .skills .third-row #r {
+        background-image: url("../img/R_logo.png"); }
+      main .skills .third-row #sql {
+        background-image: url("../img/sql.png"); }
+    @media screen and (max-width: 776px) {
+      main .skills {
+        display: none; } }
+  main .projects {
+    text-align: center;
+    padding-top: 40px; }
+    main .projects .contain-project {
+      text-align: center;
+      margin: 0 10% 0 10%;
+      border: 1px solid black;
+      padding: 10px;
+      margin-bottom: 20px; }
+      main .projects .contain-project .project-image {
+        width: 100%;
+        padding: 0 10%;
+        margin-top: 10px; }
+      main .projects .contain-project .project-title {
+        color: black;
+        font-weight: 700;
+        text-align: center; }
+      main .projects .contain-project .project-btn {
+        width: 150px; }
+      main .projects .contain-project .project-summary {
+        border-collapse: separate;
+        border-spacing: 0px 12px;
+        text-align: left;
+        padding: 0; }
+        main .projects .contain-project .project-summary li {
+          list-style: none;
+          display: table-row;
+          line-spacing: 1.5em; }
+        main .projects .contain-project .project-summary li:before {
+          padding-right: 15px;
+          content: "\e258";
+          font-family: 'Glyphicons Halflings';
+          font-style: normal;
+          font-size: 10px;
+          display: table-cell; }
+  main .contact {
+    text-align: center;
+    padding-top: 80px; }
+    main .contact hr {
+      margin-bottom: 40px; }
+    main .contact form {
+      max-width: 450;
+      width: 80%;
+      margin: 0 auto 50px; }
+      main .contact form input, main .contact form textarea {
+        border: 2px solid #dd6e42;
+        width: 100%;
+        box-sizing: border-box; }
+      main .contact form textarea {
+        height: 125px; }
+      main .contact form .contact-info label {
+        width: 50%;
+        float: left;
+        box-sizing: border-box; }
+      main .contact form .contact-info label:nth-child(1) {
+        padding-right: 2%; }
+      main .contact form .contact-info label:nth-child(2) {
+        padding-left: 2%; }
+      main .contact form label {
+        display: block;
+        margin-bottom: 20px; }
+        main .contact form label span {
+          display: block; }
+      main .contact form .input-button {
+        height: 50px;
+        width: 75px;
+        border-width: 3px;
+        background-color: #CC3900;
+        color: white; }
+  main h2 {
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    color: #dd6e42; }

@@ -1,0 +1,193 @@
+main 
+    font-size: 1.5em
+
+    .about
+        text-align: center
+        margin-left: 15%
+        margin-right: 15%
+        line-height: 1.4em
+        color: #dd6e42
+        
+        p 
+            margin-top: 10px
+            margin-left: 20px
+            color: black
+            font-weight: 100
+            
+        .pro-image
+            height: 250px
+            max-width: 250px
+            background-image: url(../img/profile.JPG)
+            background-size: cover
+            border-radius: 50%
+            margin: 20px auto
+
+            @media screen and (max-width: 1157px)
+                display: none    
+        .outsideLinks
+            width: 60%
+            margin: 10px auto
+            text-align: center
+            @media screen and (max-width: 700px)
+                width: 100%
+            a 
+                text-decoration: none
+        .linkedIn
+            background-image: url(../img/linkedin.png)
+            background-size: cover
+            height: 120px
+            max-width: 120px
+            margin: 10px auto
+            
+        .github
+            background-image: url(../img/github.svg)
+            background-size: cover
+            height: 120px
+            max-width: 120px
+            margin: 10px auto
+        .resume
+            background-image: url(../img/resume.png)
+            background-size: cover
+            height: 120px
+            max-width: 120px
+            margin: 10px auto
+
+    .skills
+        text-align: center
+        margin-top: 40px 
+        padding-top: 40px
+        .first-row
+            width: 80%
+            margin: 10px auto
+            #js, #html, #css
+                background-size: cover
+                height: 100px
+                max-width: 100px
+                margin: 10px auto
+            #js 
+                background-image: url("../img/JavaScript.jpg")
+            #html 
+                background-image: url("../img/html.png")
+            #css
+                background-image: url("../img/css.png")
+        .second-row
+            width: 70%
+            margin: 10px auto
+            #node, #ts, #react 
+                background-size: cover
+                height: 110px
+                max-width: 100px
+                margin: 10px auto
+            #node 
+                background-image: url("../img/node.png")
+            #ts
+                background-image: url("../img/TypeScript.png")
+            #react  
+                background-image: url("../img/react.png")
+        .third-row
+            width: 80%
+            margin: 10px auto
+            #java, #python, #r, #sql    
+                background-size: contain
+                background-repeat: no-repeat
+                height: 150px
+                max-width: 150px
+                margin: 10px auto
+            #java 
+                background-image: url("../img/java-icon.png")
+            #python     
+                background-image: url("../img/python.ico")
+            #r 
+                background-image: url("../img/R_logo.png")
+            #sql
+                background-image: url("../img/sql.png") 
+
+        @media screen and (max-width: 776px)
+            display: none
+
+    .projects
+        text-align: center 
+        padding-top: 40px  
+        .contain-project
+            text-align: center
+            margin: 0 10% 0 10%
+            border: 1px solid black
+            padding: 10px
+            margin-bottom: 20px
+            
+            .project-image
+                width: 100%
+                padding: 0 10%
+                margin-top: 10px
+
+            .project-title
+                color: black
+                font-weight: 700
+                text-align: center
+
+            .project-btn
+                width: 150px
+
+            .project-summary
+                border-collapse: separate
+                border-spacing: 0px 12px
+                text-align: left
+                padding: 0
+                li
+                    list-style: none
+                    display: table-row
+                    line-spacing: 1.5em
+
+                li:before
+                    padding-right: 15px
+                    content: "\e258"
+                    font-family: 'Glyphicons Halflings'
+                    font-style: normal
+                    font-size: 10px
+                    display: table-cell
+    .contact
+        text-align: center
+        padding-top: 80px
+
+        hr 
+            margin-bottom: 40px
+
+        form 
+            max-width: 450
+            width: 80%
+            margin: 0 auto 50px
+
+            input, textarea
+                border: 2px solid #dd6e42
+                width: 100%
+                box-sizing: border-box;
+            textarea
+                height: 125px
+
+            .contact-info
+                label
+                    width: 50%
+                    float: left
+                    box-sizing: border-box;
+
+                label:nth-child(1)
+                    padding-right: 2%
+                label:nth-child(2)
+                    padding-left: 2%
+                    
+            label 
+                display: block
+                margin-bottom: 20px
+                span 
+                    display: block
+            .input-button
+                height: 50px
+                width: 75px
+                border-width: 3px
+                background-color: #CC3900
+                color: white
+
+    h2
+        margin: 20px 0 20px 0
+        padding: 10px
+        color: #dd6e42
