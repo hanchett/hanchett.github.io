@@ -41,15 +41,11 @@ main {
   font-size: 1.5em; }
   main .about {
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
     line-height: 1.4em;
     color: #dd6e42; }
     main .about p {
-      margin-top: 10px;
-      margin-left: 20px;
-      color: black;
-      font-weight: 100; }
+      color: black; 
+      margin: 10px auto 0 auto; }
     main .about .pro-image {
       height: 50%;
       max-width: 300px;
