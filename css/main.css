@@ -65,7 +65,8 @@ main {
       text-align: center; }
       @media screen and (max-width: 700px) {
         main .about .outsideLinks {
-          width: 100%; } }
+          width: 100%; 
+          margin-bottom: 0; } }
       main .about .outsideLinks a {
         text-decoration: none; }
     main .about .linkedIn {
