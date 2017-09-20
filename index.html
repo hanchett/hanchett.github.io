@@ -1,128 +1,151 @@
+<html>
 
-<html> 
-  <head>
-    <meta charset="UTF-8"/>
-    <title>Ryan Hanchett</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
-    <link href="/css/main.css" rel="stylesheet"/>
-  </head>
-  <header>
-    <nav>
-      <ul> 
-        <li> <a href="#about">About Me </a></li>
-        <li> <a href="#skills">Skills</a></li>
-        <li> <a href="#projects">Projects</a></li>
-        <li> <a href="#contact">Contact Me</a></li>
-      </ul>
-    </nav>
-    <div class="header-container">
-      <div class="content-container">
-        <h1 id="about">Ryan Hanchett</h1>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <title>Ryan Hanchett</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous" />
+  <link href="/css/main.css" rel="stylesheet" />
+</head>
+<header>
+  <nav>
+    <ul>
+      <li> <a href="#about">About Me </a></li>
+      <li> <a href="#skills">Skills</a></li>
+      <li> <a href="#projects">Projects</a></li>
+      <li> <a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+  <div class="header-container">
+    <div class="content-container">
+      <h1 id="about">Ryan Hanchett</h1>
     </div>
-  </header>
-  <main>
-    <div class="about">
-      <div class="row"> 
-        <div class="pro-image"></div>
-        <p class="col-md-12"> I'm a Senior studying Informatics, Data Science and Entrepreneurship at the University of Washington. I'm absorbed with statistics and data analytics, especially sports analytics, and our ability to create accurate predictive modeling in scenarios where it doesn't seem possible. Currently open to any job opportunities involving developmet or data science. </p>
-      </div>
-      <div class="row outsideLinks"> <a class="col-md-4" href="https://www.linkedin.com/in/hanchettr/" target="_blank">
-          <div class="linkedIn"></div></a><a class="col-md-4" href="https://github.com/hanchett" target="_blank">
-          <div class="github"></div></a><a class="col-md-4" href="https://drive.google.com/file/d/0B9O9sFZvS2nPdkx3X0I3SkE3Nm8/view" target="_blank"> 
-          <div class="resume"></div></a></div>
+  </div>
+</header>
+<main>
+  <div class="about">
+    <div class="row">
+      <div class="pro-image"></div>
+      <p class="col-md-12">I am a senior at the University of Washington studying Informatics, focusing in Data Science, with a minor in Entrepreneurship.
+        I have experience working in Quality Assurance, as well as Mobile App Development roles. I'm always open to entertain
+        any career or project opportunities, mainly focusing on Software Development or Data Science. </p>
     </div>
-    <div class="skills" id="skills">
-      <h2>Skills 
-        <hr/>
-        <div class="first-row row">
-          <div class="col-sm-4">
-            <div id="html"></div>
-          </div>
-          <div class="col-sm-4">
-            <div id="css"></div>
-          </div>
-          <div class="col-sm-4">
-            <div id="js"></div>
-          </div>
-        </div>
-        <div class="second-row row">
-          <div class="col-sm-4">
-            <div id="node"></div>
-          </div>
-          <div class="col-sm-4">
-            <div id="ts"></div>
-          </div>
-          <div class="col-sm-4">
-            <div id="react"></div>
-          </div>
-        </div>
-        <div class="third-row row">
-          <div class="col-sm-3">
-            <div id="java"></div>
-          </div>
-          <div class="col-sm-3">
-            <div id="python"></div>
-          </div>
-          <div class="col-sm-3">
-            <div id="r"></div>
-          </div>
-          <div class="col-sm-3">
-            <div id="sql"></div>
-          </div>
-        </div>
-      </h2>
+    <div class="row outsideLinks">
+      <a class="col-md-4" href="https://www.linkedin.com/in/hanchettr/" target="_blank">
+        <div class="linkedIn"></div>
+      </a>
+      <a class="col-md-4" href="https://github.com/hanchett" target="_blank">
+        <div class="github"></div>
+      </a>
+      <a class="col-md-4" href="https://drive.google.com/file/d/0B9O9sFZvS2nPdkx3X0I3SkE3Nm8/view" target="_blank">
+        <div class="resume"></div>
+      </a>
     </div>
-    <div class="projects row" id="projects"> 
-      <h2>Projects</h2>
+  </div>
+  <div class="skills" id="skills">
+    <h2>Skills
       <hr/>
-      <div class="mlb">
-        <div class="contain-project">
-          <h3 class="project-title">Major League Baseball Statistical Analysis</h3><img class="project-image" src="/img/mlb-graph.png" alt="Example Statistical Graph From MLB Project"/>
-          <ul class="project-summary">
-            <li> Performed analytics on four years’ worth of pitch data in MLB, analyzing different factors that impact how Umpires call strikes on pitches thrown outside the strike zone. Worked with a team to analyze these calls by inning and home field advantage, as well as personally performing a case study on Robinson Cano, examining the effect that missed calls have on at-bat outcomes. </li>
-            <li>Utilized R and several libraries to perform our analysis, including GGPlot2 for graphs and charts and SQLDF to query our data.</li>
-          </ul><a class="project-btn btn btn-primary" href="https://drive.google.com/open?id=1D5yIFxl8Uy4kJZvWR33M9o-DzJ5fe2kNoCt1eK9PqRI" target="_blank">See Paper</a>
+      <div class="first-row row">
+        <div class="col-sm-4">
+          <div id="html"></div>
+        </div>
+        <div class="col-sm-4">
+          <div id="css"></div>
+        </div>
+        <div class="col-sm-4">
+          <div id="js"></div>
         </div>
       </div>
-      <div class="mls">
-        <div class="contain-project">
-          <h3 class="project-title">Created a mock database for Major League Soccer</h3><img class="project-image" src="/img/MLS-ERD.png" alt="ERD For MLS Project"/>
-          <ul class="project-summary">
-            <li>Diagrammed, coded and populated an original database for managing Major League Soccer transfers, budgets, stats, games and more in Third-Normal Form using MS SQL Server 2014. Created synthetic transactions to validate throughput volume of 200,000+ INSERTS.</li>
-            <li>Conducted live troubleshooting efforts in presence of primary stakeholder and restored multiple backup files to a specified point-in-time in eight minutes, utilizing DMVs and Activity Monitor to identify issues.</li>
-          </ul>
+      <div class="second-row row">
+        <div class="col-sm-4">
+          <div id="node"></div>
+        </div>
+        <div class="col-sm-4">
+          <div id="ts"></div>
+        </div>
+        <div class="col-sm-4">
+          <div id="react"></div>
         </div>
       </div>
-      <div class="predictions">
-        <div class="contain-project">
-          <h3 class="project-title">MLS Database to Record Predictions </h3><img class="project-image" src="/img/prediction-erd.png" alt="ERD For Predictions DB"/>
-          <ul class="project-summary">
-            <li>Created a database to record predictions for MLS games, as well as calculating statistics about my predictions.</li>
-            <li>Made this after several seasons of manually entering predictions and results into a spreadsheet, usually resulting in me giving up halfway through the season </li>
-          </ul>
+      <div class="third-row row">
+        <div class="col-sm-3">
+          <div id="java"></div>
         </div>
+        <div class="col-sm-3">
+          <div id="python"></div>
+        </div>
+        <div class="col-sm-3">
+          <div id="r"></div>
+        </div>
+        <div class="col-sm-3">
+          <div id="sql"></div>
+        </div>
+      </div>
+    </h2>
+  </div>
+  <div class="projects row" id="projects">
+    <h2>Projects</h2>
+    <hr/>
+    <div class="mlb">
+      <div class="contain-project">
+        <h3 class="project-title">Major League Baseball Statistical Analysis</h3><img class="project-image" src="/img/mlb-graph.png" alt="Example Statistical Graph From MLB Project"
+        />
+        <ul class="project-summary">
+          <li> Performed analytics on four years’ worth of pitch data in MLB, analyzing different factors that impact how Umpires
+            call strikes on pitches thrown outside the strike zone. Worked with a team to analyze these calls by inning and
+            home field advantage, as well as personally performing a case study on Robinson Cano, examining the effect that
+            missed calls have on at-bat outcomes. </li>
+          <li>Utilized R and several libraries to perform our analysis, including GGPlot2 for graphs and charts and SQLDF to
+            query our data.</li>
+        </ul><a class="project-btn btn btn-primary" href="https://drive.google.com/open?id=1D5yIFxl8Uy4kJZvWR33M9o-DzJ5fe2kNoCt1eK9PqRI"
+          target="_blank">See Paper</a>
       </div>
     </div>
-    <div class="contact row" id="contact">
-      <h2>Contact Me</h2>
-      <hr/>
-      <form action="https://formspree.io/hanchett_ryan@yahoo.com" method="POST">
-        <div class="contact-info">
-          <label><span>Name</span>
+    <div class="mls">
+      <div class="contain-project">
+        <h3 class="project-title">Created a mock database for Major League Soccer</h3><img class="project-image" src="/img/MLS-ERD.png" alt="ERD For MLS Project"
+        />
+        <ul class="project-summary">
+          <li>Diagrammed, coded and populated an original database for managing Major League Soccer transfers, budgets, stats,
+            games and more in Third-Normal Form using MS SQL Server 2014. Created synthetic transactions to validate throughput
+            volume of 200,000+ INSERTS.</li>
+          <li>Conducted live troubleshooting efforts in presence of primary stakeholder and restored multiple backup files to
+            a specified point-in-time in eight minutes, utilizing DMVs and Activity Monitor to identify issues.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="predictions">
+      <div class="contain-project">
+        <h3 class="project-title">MLS Database to Record Predictions </h3><img class="project-image" src="/img/prediction.png" alt="ERD For Predictions DB"
+        />
+        <ul class="project-summary">
+          <li>Created a database to record predictions for MLS games, as well as calculating statistics about my predictions.</li>
+          <li>Made this after several seasons of manually entering predictions and results into a spreadsheet, usually resulting
+            in me giving up halfway through the season </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="contact row" id="contact">
+    <h2>Contact Me</h2>
+    <hr/>
+    <form action="https://formspree.io/hanchett_ryan@yahoo.com" method="POST">
+      <div class="contact-info">
+        <label><span>Name</span>
             <input type="text" name="name"/>
           </label>
-          <label><span>Email </span>
+        <label><span>Email </span>
             <input type="email" name="email"/>
           </label>
-        </div>
-        <label> <span>Message </span>
+      </div>
+      <label> <span>Message </span>
           <textarea name="message"></textarea>
         </label>
-        <input class="input-button" type="submit" value="Send"/>
-      </form>
-    </div>
-  </main>
+      <input class="input-button" type="submit" value="Send" />
+    </form>
+  </div>
+</main>
+
 </html>

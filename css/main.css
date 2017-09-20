@@ -51,15 +51,12 @@ main {
       color: black;
       font-weight: 100; }
     main .about .pro-image {
-      height: 250px;
-      max-width: 250px;
+      height: 50%;
+      max-width: 300px;
       background-image: url(../img/profile.jpg);
       background-size: cover;
       border-radius: 50%;
       margin: 20px auto; }
-      @media screen and (max-width: 1157px) {
-        main .about .pro-image {
-          display: none; } }
     main .about .outsideLinks {
       width: 60%;
       margin: 10px auto;
