@@ -22,11 +22,6 @@ header {
           font-size: 1.1em; }
       header nav ul li:hover {
         color: #CCC; }
-    @media screen and (max-width: 440px) {
-      header nav ul{
-        display: none; } 
-      
-      }
   header .header-container {
     text-align: center;
     font-size: 1.5em;
@@ -38,6 +33,14 @@ header {
       padding: 20px; }
       header .header-container .content-container h1 {
         padding-top: 40px; }
+        @media screen and (max-width: 440px) {
+          header nav ul{
+            display: none; } 
+            header .header-container {
+              margin-top: 0; }
+            header .header-container .content-container h1 {
+              padding-top: 0; }
+          }
 
 main {
   font-size: 1.5em; }
