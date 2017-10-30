@@ -138,7 +138,9 @@ main {
         background-image: url("../img/sql.png"); }
     @media screen and (max-width: 776px) {
       main .skills {
-        width: 100%; }
+        width: 100%; 
+        margin-top: -20px;
+        padding-top: 0; }
       main .skills .second-row #react {
         margin: 0 auto; }
       main .skills .third-row #java {
