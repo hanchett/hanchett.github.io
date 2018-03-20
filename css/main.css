@@ -189,4 +189,11 @@ main {
     main .title {
       text-align: center; }
       main .title .pro-image {
-        margin: 0 auto; } }
+        margin: 0 auto; } 
+        main .projects .content .card .overlay .text .l{
+          display: none;
+        }
+        main .projects .content .card:hover .overlay {
+          display: none
+        }
+      }
