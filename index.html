@@ -1,171 +1,222 @@
 <html>
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116061525-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-116061525-1');
+  </script>
+
   <meta charset="UTF-8" />
   <title>Ryan Hanchett</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous" />
-  <link href="./css/main.css" rel="stylesheet" />
+  <link href="../css/main.css" rel="stylesheet" />
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
 </head>
 <header>
-  <nav>
-    <ul>
-      <li> <a href="#about">About Me </a></li>
-      <li> <a href="#skills">Skills</a></li>
-      <li> <a href="#projects">Projects</a></li>
-      <li> <a href="#contact">Contact Me</a></li>
-    </ul>
-  </nav>
   <div class="header-container">
     <div class="content-container">
       <h1 id="about">Ryan Hanchett</h1>
+      <h2>Developer </h2>
+      <i class="fa fa-minus"></i>
+      <h2>Data Scientist </h2>
+      <i class="fa fa-minus"></i>
+      <h2>Student</h2>
+      <div class="icon">
+        <a class="links" href="https://www.linkedin.com/in/hanchettr/" target="_blank">
+          <i class="fa fa-linkedin fa-5x"></i>
+        </a>
+        <a class="links" href="https://github.com/hanchett" target="_blank">
+          <i class="fa fa-github fa-5x"></i>
+        </a>
+      </div>
     </div>
   </div>
 </header>
 <main>
   <div class="about">
-    <div class="row">
+    <div class="title">
+      <h3>About Me</h3>
       <div class="pro-image"></div>
-      <p>I am a senior at the University of Washington studying Informatics, focusing in Data Science, with a minor in Entrepreneurship.
-        I have experience working in Quality Assurance, as well as Mobile App Development roles. I'm always open to entertain
-        any career or project opportunities, mainly focusing on Software Development or Data Science. </p>
     </div>
-    <div class="row outsideLinks">
-      <a class="col-md-4" href="https://www.linkedin.com/in/hanchettr/" target="_blank">
-        <div class="linkedIn"></div>
-      </a>
-      <a class="col-md-4" href="https://github.com/hanchett" target="_blank">
-        <div class="github"></div>
-      </a>
-      <a class="col-md-4" href="https://drive.google.com/file/d/0B9O9sFZvS2nPdkx3X0I3SkE3Nm8/view" target="_blank">
-        <div class="resume"></div>
-      </a>
+    <div class="content">
+      <div class="descr">
+        <p>I am a senior at the University of Washington studying Informatics, focusing in Data Science, with a minor in Entrepreneurship.
+          I have experience developing mobile apps, full-stack web apps, relational databases, and implementing analytic
+          frameworks such as PageRank, Random Forest and Gradient Descent. </p>
+        <p>I love analytics, especially in the world of sports. I've analyzed Major League Baseball as well as Major League
+          Soccer as passion projects. </p>
+        <p>Always open to career opportunities, feel free to contact me using the form below. </p>
+      </div>
     </div>
   </div>
-  <div class="skills" id="skills">
-    <h2>Skills
-      <hr/>
-      <div class="first-row row">
-        <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
-          <div class="col-sm-4">
-            <div id="html"></div>
-          </div>
-        </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank">
-          <div class="col-sm-4">
-            <div id="css"></div>
-          </div>
-        </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-          <div class="col-sm-4">
-            <div id="js"></div>
-          </div>
-        </a>
+  <div class="experience">
+    <div class="title">
+      <h3>Experience</h3>
+    </div>
+    <div class="content">
+      <div class="inrix">
+        <h3>
+          <strong>INRIX</h3>
+        <h4>Mobile Applications Development Intern &nbsp|&nbsp June 2017 - September 2017</strong>
+        </h4>
+        <div class="descr">
+          <p>
+            <span class="car">> &nbsp</span> Worked collaboratively on INRIX’s OpenCar, a vehicle-specific platform, delivering an optimal
+            in-car app experience.</p>
+          <p>
+            <span class="car">> &nbsp</span> Built OpenCar apps using JavaScript and Typescript - interacting with several APIs. </p>
+          <p>
+            <span class="car">> &nbsp</span> Utilized Mocha and Chai to create unit tests for the applications.</p>
+          <p>
+            <span class="car">> &nbsp</span> Worked closely with QA, designers, project owners and full-time developers to produce production-quality
+            apps, while still maintaining ownership over multiple apps. </p>
+        </div>
       </div>
-      <div class="second-row row">
-        <a href="https://nodejs.org" target="_blank">
-          <div class="col-sm-4">
-            <div id="node"></div>
-          </div>
-        </a>
-        <a href="https://www.typescriptlang.org" target="_blank">
-          <div class="col-sm-4">
-            <div id="ts"></div>
-          </div>
-        </a>
-        <a href="https://reactjs.org/" target="_blank">
-          <div class="col-sm-4">
-            <div id="react"></div>
-          </div>
-        </a>
-      </div>
-      <div class="third-row row">
-        <a href="https://java.com" target="_blank">
-          <div class="col-sm-3">
-            <div id="java"></div>
-          </div>
-        </a>
-        <a href="https://www.python.org/" target="_blank">
-          <div class="col-sm-3">
-            <div id="python"></div>
-          </div>
-        </a>
-        <a href="https://www.r-project.org" target="_blank">
-          <div class="col-sm-3">
-            <div id="r"></div>
-          </div>
-        </a>
-        <a href="https://developer.mozilla.org/en-US/docs/Glossary/SQL" target="_blank">
-          <div class="col-sm-3">
-            <div id="sql"></div>
-          </div>
-        </a>
-
-      </div>
-    </h2>
-  </div>
-  <div class="projects row" id="projects">
-    <h2>Projects</h2>
-    <hr/>
-    <div class="mlb">
-      <div class="contain-project">
-        <h3 class="project-title">Major League Baseball Statistical Analysis</h3><img class="project-image" src="./img/mlb-graph.png" alt="Example Statistical Graph From MLB Project"
-        />
-        <ul class="project-summary">
-          <li> Performed analytics on four years’ worth of pitch data in MLB, analyzing different factors that impact how Umpires
-            call strikes on pitches thrown outside the strike zone. Worked with a team to analyze these calls by inning and
-            home field advantage, as well as personally performing a case study on Robinson Cano, examining the effect that
-            missed calls have on at-bat outcomes. </li>
-          <li>Utilized R and several libraries to perform our analysis, including GGPlot2 for graphs and charts and SQLDF to
-            query our data.</li>
-        </ul><a class="project-btn btn btn-primary" href="https://drive.google.com/open?id=1D5yIFxl8Uy4kJZvWR33M9o-DzJ5fe2kNoCt1eK9PqRI"
-          target="_blank">See Paper</a>
+      <div class="avtk">
+        <h3>
+          <strong>Averetek</h3>
+        <h4>Software Quality Assurance Intern &nbsp|&nbsp Summer '15, '16</strong>
+        </h4>
+        <div class="descr">
+          <p>
+            <span class="car">> &nbsp</span> Performed quality assurance using multiple testing frameworks such as Build Verification and Unit
+            Tests</p>
+          <p>
+            <span class="car">> &nbsp</span> Was given the responsibility of lead QA on a new platform and saw it from initiation to its first
+            sale. </p>
+          <p>
+            <span class="car">> &nbsp</span> Exposed and documented over 300 defects in this platform during a two-month period.</p>
+          <p>
+            <span class="car">> &nbsp</span> platform became the primary customer acquisition method for the company. </p>
+        </div>
       </div>
     </div>
-    <div class="mls">
-      <div class="contain-project">
-        <h3 class="project-title">Created a mock database for Major League Soccer</h3><img class="project-image" src="./img/MLS-ERD.png" alt="ERD For MLS Project"
-        />
-        <ul class="project-summary">
-          <li>Diagrammed, coded and populated an original database for managing Major League Soccer transfers, budgets, stats,
+  </div>
+  <div class="projects">
+    <div class="title">
+      <h3>Projects</h3>
+    </div>
+    <div class="content">
+      <div class="card">
+        <a href="https://github.com/hanchett/METS-Capstone" target="_blank">
+          <h4>Capstone Full Stack Website </h4>
+          <img class="project-image" src="../img/Home Page.png" alt="Capstone Project Home page"
+          />
+          <div class="overlay">
+            <div class="text">
+              <div class="l">Mongo DB </div>
+              <div class="l">Express.js </div>
+              <div class="l">React.js</div>
+              <div class="l">Node.js </div>
+            </div>
+          </div>
+          <p>Lead developer for full-stack website designed to assist teachers with high-needs students in finding educational
+            technologies and enabling curriculum building collaboration. Utilized the MERN stack. </p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="https://docs.google.com/document/u/1/d/1D5yIFxl8Uy4kJZvWR33M9o-DzJ5fe2kNoCt1eK9PqRI/edit?usp=drive_web" target="_blank">
+          <h4>Major League Baseball Statistical Analysis</h4>
+          <img class="project-image" src="../img/mlb-graph.png" alt="Example Statistical Graph From MLB Project"
+          />
+          <div class="overlay">
+            <div class="text">
+              <div class="l">R </div>
+              <div class="l">SQLdf </div>
+              <div class="l">GGPlot2 </div>
+            </div>
+          </div>
+          <p>Analyzed patterns in called strikes in the MLB. Analyzed four years of pitch data, examining patterns in Home vs
+            Away, Inning and at bat outcome of a called strike. Links to paper on methods and findings. </p>
+        </a>
+      </div>
+      <div class="card">
+        <a href=" https://github.com/hanchett/MLS-Database-Code" target="_blank">
+          <h4>Mock database for Major League Soccer</h4>
+          <div class="db">
+            <i class="fa fa-database fa-5x"></i>
+          </div>
+          <div class="overlay">
+            <div class="text">
+              <div class="l">MS SQL </div>
+              <div class="l">3rd Normal Form </div>
+              <div class="l">200,000+ Insert Throughput</div>
+            </div>
+          </div>
+          <p>Diagrammed, coded and populated an original database for managing Major League Soccer transfers, budgets, stats,
             games and more in Third-Normal Form using MS SQL Server 2014. Created synthetic transactions to validate throughput
-            volume of 200,000+ INSERTS.</li>
-          <li>Conducted live troubleshooting efforts in presence of primary stakeholder and restored multiple backup files to
-            a specified point-in-time in eight minutes, utilizing DMVs and Activity Monitor to identify issues.</li>
-        </ul>
+            volume of 200,000+ INSERTS.</p>
+        </a>
       </div>
-    </div>
-    <div class="predictions">
-      <div class="contain-project">
-        <h3 class="project-title">MLS Database to Record Predictions </h3><img class="project-image" src="./img/prediction.png" alt="ERD For Predictions DB"
-        />
-        <ul class="project-summary">
-          <li>Created a database to record predictions for MLS games, as well as calculating statistics about my predictions.</li>
-          <li>Made this after several seasons of manually entering predictions and results into a spreadsheet, usually resulting
-            in me giving up halfway through the season </li>
-        </ul>
+      <div class="card">
+        <a href="https://unlockingblockchain.com" target="_blank">
+          <h4>Unlocking Blockchain - An eBook covering Cryptocurrencies, Blockchain and Smart Contracts</h4>
+          <img class="project-image"
+            src="../img/unlocking.jpg" alt="Unlocking Blockchain Book Cover" />
+          <div class="overlay">
+            <div class="text">
+              <div class="l">Solidity</div>
+            </div>
+          </div>
+          <p>Co-author of
+            <i>Unlocking Blockchain</i>, an eBook on Cryptocurrencies, Blockchain and Smart Contracts, focusing more on the
+            applications beyond just Cryptocurrencies. Enabling everyone to understand these concepts, regardless of technical
+            skills. </p>
+        </a>
       </div>
     </div>
   </div>
-  <div class="contact row" id="contact">
-    <h2>Contact Me</h2>
-    <hr/>
-    <form action="https://formspree.io/hanchett_ryan@yahoo.com" method="POST">
-      <div class="contact-info">
-        <label><span>Name</span>
-            <input type="text" name="name"/>
-          </label>
-        <label><span>Email </span>
-            <input type="email" name="email"/>
-          </label>
+  <div class="education">
+    <div class="title">
+      <h3>Education</h3>
+      <div class="uw-image"></div>
+    </div>
+    <div class="content">
+      <div class="descr">
+        <h3>University of Washington
+          <small>2014 - 2018 (Expected)</small>
+        </h3>
+        <h4>B.S. Informatics - Focus in Data Science </h4>
+        <h4>Minor: Entrepreneurship </h4>
+        <h5>GPA: 3.75</h5>
       </div>
-      <label> <span>Message </span>
-          <textarea name="message"></textarea>
-        </label>
-      <input class="input-button" type="submit" value="Send" />
-    </form>
+    </div>
+  </div>
+  <div class="contact">
+    <div class="title">
+      <h3>Contact</h3>
+      <p>Reach out to me and I will get back to you as soon as I can. If you just wish to send me feedback, feel free to leave
+        the email space blank. </p>
+    </div>
+    <div class="content">
+      <form action="https://formspree.io/hanchett_ryan@yahoo.com" method="POST">
+        <div class="contact-info">
+          <label>
+            <h4>Name</h4>
+            <input type="text" name="name" />
+          </label>
+          <label>
+            <h4>Email </h4>
+            <input type="email" name="email" />
+          </label>
+          <br/>
+          <label>
+            <h4>Message </h4>
+            <textarea name="message"></textarea>
+          </label>
+        </div>
+        <br/>
+        <input class="input-button" type="submit" value="Send" />
+      </form>
+    </div>
   </div>
 </main>
 

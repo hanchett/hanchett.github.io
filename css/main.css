@@ -1,221 +1,192 @@
 header {
   font-size: 1em;
-  font-family: 'Droid Serif', serif;
-  color: black; }
-  header nav {
-    background-color: #4f6d7a;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; }
-    header nav ul {
-      float: right;
-      padding: 10px;
-      margin-bottom: 0; }
-      header nav ul li {
-        display: inline;
-        padding-right: 20px; }
-        header nav ul li a {
-          text-decoration: none;
-          color: #EAEAEA;
-          margin: 5px;
-          font-size: 1.1em; }
-      header nav ul li:hover {
-        color: #CCC; }
+  font-family: 'Raleway', sans-serif;
+  color: #DCE7E2; }
   header .header-container {
     text-align: center;
     font-size: 1.5em;
-    padding-top: 10px;
-    margin-top: 40px;
-    margin-bottom: -20px; }
+    padding-top: 10%;
+    background: linear-gradient(#5B8DA3, #76cccc);
+    padding-bottom: 20px;
+    display: flex;
+    flex-flow: column;
+    height: 100%; }
     header .header-container .content-container {
-      margin: 0 auto;
-      padding: 20px; }
+      margin: 0 auto; }
       header .header-container .content-container h1 {
-        padding-top: 40px; }
-        @media screen and (max-width: 440px) {
-          header nav ul{
-            display: none; } 
-            header .header-container {
-              margin-top: 0; }
-            header .header-container .content-container h1 {
-              padding-top: 0; }
-          }
+        padding-top: 10px;
+        font-size: 4em; }
+      header .header-container .content-container h2 {
+        display: inline-block;
+        margin: 10px; }
+      header .header-container .content-container .fa-minus {
+        font-size: .8em; }
+      header .header-container .content-container .links {
+        margin: 80px;
+        display: inline-block;
+        font-size: 1.5em;
+        text-decoration: none;
+        color: white; }
+      @media screen and (max-width: 767px) {
+        header .header-container .content-container {
+          font-size: .8em;
+          display: block; }
+          header .header-container .content-container h2 {
+            display: block; }
+          header .header-container .content-container .fa-minus {
+            display: none; }
+          header .header-container .content-container .links {
+            font-size: .5em;
+            margin: 10px; } }
 
 main {
-  font-size: 1.5em; }
-  main .about {
-    text-align: center;
-    line-height: 1.4em;
-    color: #dd6e42; }
-    main .about p {
-      color: black; 
-      margin: 10px 10% 0; }
-    main .about .pro-image {
-      height: 300px;
-      width: auto;
-      max-width: 300px;
+  font-family: 'Raleway', sans-serif; }
+  main h3 {
+    font-size: 3em;
+    font-weight: 800; }
+  main .title {
+    float: left;
+    width: 30%; }
+    main .title h3 {
+      color: #5B8DA3;
+      font-size: 2em; }
+    main .title .pro-image {
+      height: 200px;
+      width: 200px;
       background-image: url(../img/profile.jpg);
       background-size: cover;
-      border-radius: 50%;
-      margin: 20px auto; }
-    main .about .outsideLinks {
-      width: 60%;
-      margin: 10px auto;
-      text-align: center; }
-      @media screen and (max-width: 700px) {
-        main .about .outsideLinks {
-          width: 100%; 
-          margin-bottom: 0; } }
-      main .about .outsideLinks a {
-        text-decoration: none; }
-    main .about .linkedIn {
-      background-image: url(../img/linkedin.png);
-      background-size: cover;
-      height: 120px;
-      max-width: 120px;
-      margin: 10px auto; }
-    main .about .github {
-      background-image: url(../img/github.svg);
-      background-size: cover;
-      height: 120px;
-      max-width: 120px;
-      margin: 10px auto; }
-    main .about .resume {
-      background-image: url(../img/resume.png);
-      background-size: cover;
-      height: 120px;
-      max-width: 120px;
-      margin: 10px auto; }
-  main .skills {
-    text-align: center;
-    margin-top: 40px;
-    padding-top: 40px; }
-    main .skills .first-row {
-      width: 80%;
-      margin: 10px auto; }
-      main .skills .first-row #js, main .skills .first-row #html, main .skills .first-row #css {
-        background-size: cover;
-        height: 100px;
-        max-width: 100px;
-        margin: 10px auto; }
-      main .skills .first-row #js {
-        background-image: url("../img/JavaScript.jpg"); }
-      main .skills .first-row #html {
-        background-image: url("../img/html.png"); }
-      main .skills .first-row #css {
-        background-image: url("../img/css.png"); }
-    main .skills .second-row {
-      width: 70%;
-      margin: 10px auto; }
-      main .skills .second-row #node, main .skills .second-row #ts, main .skills .second-row #react {
-        background-size: cover;
-        height: 110px;
-        max-width: 100px;
-        margin: 10px auto; }
-      main .skills .second-row #node {
-        background-image: url("../img/node.png"); }
-      main .skills .second-row #ts {
-        background-image: url("../img/TypeScript.png"); }
-      main .skills .second-row #react {
-        background-image: url("../img/react.png"); }
-    main .skills .third-row {
-      width: 80%;
-      margin: 10px auto; }
-      main .skills .third-row #java, main .skills .third-row #python, main .skills .third-row #r, main .skills .third-row #sql {
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 150px;
-        max-width: 150px;
-        margin: 10px auto 0; }
-      main .skills .third-row #java {
-        background-image: url("../img/java-icon.png"); }
-      main .skills .third-row #python {
-        background-image: url("../img/python.ico"); }
-      main .skills .third-row #r {
-        background-image: url("../img/R_logo.png"); }
-      main .skills .third-row #sql {
-        background-image: url("../img/sql.png"); }
-    @media screen and (max-width: 776px) {
-      main .skills {
-        width: 100%; 
-        margin-top: -20px;
-        padding-top: 0; }
-      main .skills .second-row #react {
-        margin: 0 auto; }
-      main .skills .third-row #java {
-        margin: 0 auto; }}
+      border-radius: 50%; }
+  main .content {
+    float: left;
+    width: 70%; }
+  @media screen and (max-width: 767px) {
+    main .title, main .content {
+      width: 100%; }
+      main .title .descr, main .content .descr {
+        font-size: 1.1em; } }
+  main .descr {
+    font-size: 1.5em; }
+  main .about {
+    padding: 60px 40px;
+    vertical-align: middle;
+    overflow: auto;
+    color: #5B8DA3; }
+    main .about .content p {
+      margin: 30px; }
+    @media screen and (max-width: 767px) {
+      main .about {
+        padding: 60px 10px; } }
+  main .experience {
+    background: linear-gradient(#5B8DA3, #76cccc);
+    padding: 20px;
+    overflow: auto;
+    color: white; }
+    main .experience h3 {
+      color: white; }
+    main .experience .title {
+      color: white; }
+    main .experience .descr {
+      font-size: 1em; }
+    main .experience .avtk {
+      margin-top: 40px; }
+    @media screen and (max-width: 767px) {
+      main .experience .car {
+        display: none; }
+      main .experience .content p {
+        margin-top: 10px; } }
   main .projects {
-    text-align: center;
-    padding-top: 40px; }
-    main .projects .contain-project {
-      text-align: center;
-      margin: 0 10% 0 10%;
-      border: 1px solid black;
-      padding: 10px;
-      margin-bottom: 20px; }
-      main .projects .contain-project .project-image {
-        width: 100%;
-        padding: 0 10%;
-        margin-top: 10px; }
-      main .projects .contain-project .project-title {
-        color: black;
-        font-weight: 700;
-        text-align: center; }
-      main .projects .contain-project .project-btn {
-        width: 150px; }
-      main .projects .contain-project .project-summary {
-        border-collapse: separate;
-        border-spacing: 0px 12px;
-        text-align: left;
-        padding: 0; }
-        main .projects .contain-project .project-summary li {
-          list-style: none;
-          display: table-row;
-          line-spacing: 1.5em; }
-        main .projects .contain-project .project-summary li:before {
-          padding-right: 15px;
-          content: "\e258";
-          font-family: 'Glyphicons Halflings';
-          font-style: normal;
-          font-size: 10px;
-          display: table-cell; }
-  main .contact {
-    text-align: center;
-    padding-top: 80px; }
-    main .contact hr {
-      margin-bottom: 40px; }
-    main .contact form {
-      max-width: 450;
-      width: 80%;
-      margin: 0 auto 50px; }
-      main .contact form input, main .contact form textarea {
-        border: 2px solid #dd6e42;
-        width: 100%;
-        box-sizing: border-box; }
-      main .contact form textarea {
-        height: 125px; }
-      main .contact form .contact-info label {
-        width: 50%;
-        float: left;
-        box-sizing: border-box; }
-      main .contact form .contact-info label:nth-child(1) {
-        padding-right: 2%; }
-      main .contact form .contact-info label:nth-child(2) {
-        padding-left: 2%; }
-      main .contact form label {
-        display: block;
-        margin-bottom: 20px; }
-        main .contact form label span {
-          display: block; }
-      main .contact form .input-button {
+    padding: 60px 40px;
+    min-height: 100%;
+    overflow: auto; }
+    main .projects .content {
+      display: flex;
+      flex-flow: row wrap; }
+      main .projects .content .card {
+        position: relative;
+        width: 400px;
+        max-height: 375px;
+        margin: 20px auto;
         text-align: center;
-        height: 50px;
-        width: 100px;
-        border-width: 3px;
-        background-color: #CC3900;
+        flex-flow: row nowrap; }
+        main .projects .content .card h4 {
+          font-size: 1.5em;
+          font-weight: 600; }
+        main .projects .content .card a:hover {
+          text-decoration: none; }
+        main .projects .content .card p, main .projects .content .card .fa-database {
+          margin-top: 20px; }
+        main .projects .content .card .db {
+          font-size: 2em; }
+        main .projects .content .card .project-image {
+          height: 165px; }
+        main .projects .content .card .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #76cccc; }
+          main .projects .content .card .overlay .text {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            opacity: 1; }
+            main .projects .content .card .overlay .text .l {
+              height: 100%;
+              border: 1px solid white;
+              margin-top: 10px;
+              padding: 5px;
+              background-color: #5B8DA3; }
+      main .projects .content .card:hover .overlay {
+        opacity: .9; }
+  main .education {
+    background: linear-gradient(#5B8DA3, #76cccc);
+    padding: 20px;
+    overflow: auto; }
+    main .education .uw-image {
+      background-image: url("../img/uw.png");
+      height: 200px;
+      width: 200px;
+      background-size: 200px 200px;
+      background-repeat: no-repeat; }
+    main .education h3, main .education .descr {
+      color: white; }
+    main .education .descr h3 {
+      font-size: 2em;
+      font-weight: 0; }
+    main .education .descr h4 {
+      font-size: 1.15em; }
+    main .education .descr small {
+      color: white; }
+  main .contact {
+    padding: 20px;
+    overflow: auto;
+    text-align: center; }
+    main .contact form {
+      font-size: 1.5em; }
+      main .contact form input, main .contact form textarea {
+        border: 2px solid #5B8DA3; }
+      main .contact form .contact-info label {
+        margin: 10px 20px; }
+        main .contact form .contact-info label h4 {
+          color: #5B8DA3;
+          font-weight: 800; }
+      main .contact form .input-button {
+        margin-top: 10px;
+        background-color: #5B8DA3;
+        border: 2px solid #76cccc;
         color: white; }
-  main h2 {
-    margin: 20px 0 20px 0;
-    padding: 10px;
-    color: #dd6e42; }
+  @media screen and (max-width: 767px) {
+    main .title {
+      text-align: center; }
+      main .title .pro-image {
+        margin: 0 auto; } }
